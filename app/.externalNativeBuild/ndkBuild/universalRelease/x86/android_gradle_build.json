@@ -1,0 +1,46 @@
+{
+  "buildFiles": [
+    "C:\\Users\\ZEROETC\\Desktop\\OfferAIO\\HLFaker\\app\\src\\main\\jni\\Android.mk",
+    "C:\\Users\\ZEROETC\\Desktop\\OfferAIO\\HLFaker\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\ZEROETC\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\ZEROETC\\Desktop\\OfferAIO\\HLFaker\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\ZEROETC\\Desktop\\OfferAIO\\HLFaker\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dC:/Users/ZEROETC/Desktop/OfferAIO/HLFaker/app/build/intermediates/ndkBuild/universal/release/obj NDK_LIBS_OUT\u003dC:\\Users\\ZEROETC\\Desktop\\OfferAIO\\HLFaker\\app\\build\\intermediates\\ndkBuild\\universal\\release\\lib clean"
+  ],
+  "libraries": {
+    "hlhooker-universalRelease-x86": {
+      "buildCommand": "C:\\Users\\ZEROETC\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\ZEROETC\\Desktop\\OfferAIO\\HLFaker\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\ZEROETC\\Desktop\\OfferAIO\\HLFaker\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dC:/Users/ZEROETC/Desktop/OfferAIO/HLFaker/app/build/intermediates/ndkBuild/universal/release/obj NDK_LIBS_OUT\u003dC:\\Users\\ZEROETC\\Desktop\\OfferAIO\\HLFaker\\app\\build\\intermediates\\ndkBuild\\universal\\release\\lib C:/Users/ZEROETC/Desktop/OfferAIO/HLFaker/app/build/intermediates/ndkBuild/universal/release/obj/local/x86/libhlhooker.so",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "artifactName": "hlhooker",
+      "files": [
+        {
+          "src": "C:\\Users\\ZEROETC\\Desktop\\OfferAIO\\HLFaker\\app\\src\\main\\jni\\hlhooker\\hlhooker.cpp",
+          "flags": "\"-gcc-toolchain\" \"C:/Users/ZEROETC/AppData/Local/Android/sdk/ndk-bundle/build//../toolchains/x86-4.9/prebuilt/windows-x86_64\" \"-target\" \"i686-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-fno-exceptions\" \"-fno-rtti\" \"-O2\" \"-DNDEBUG\" \"-IC:/Users/ZEROETC/Desktop/OfferAIO/HLFaker/app/src/main/jni\" \"-IC:/Users/ZEROETC/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/stlport/stlport\" \"-IC:/Users/ZEROETC/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl//gabi++/include\" \"-IC:/Users/ZEROETC/Desktop/OfferAIO/HLFaker/app/src/main/jni\" \"-fexceptions\" \"-DANDROID\" \"-fpermissive\" \"-fno-rtti\" \"-fno-exceptions\" \"-fvisibility\u003dhidden\" \"-fvisibility-inlines-hidden\" \"-std\u003dc++1y\" \"-g0\" \"-O3\" \"-fomit-frame-pointer\" \"-D__ANDROID_API__\u003d19\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-mstackrealign\" \"-frtti\" \"-fexceptions\" \"--sysroot\" \"C:/Users/ZEROETC/AppData/Local/Android/sdk/ndk-bundle/build//../sysroot\" \"-isystem\" \"C:/Users/ZEROETC/AppData/Local/Android/sdk/ndk-bundle/build//../sysroot/usr/include/i686-linux-android\""
+        }
+      ],
+      "output": "C:\\Users\\ZEROETC\\Desktop\\OfferAIO\\HLFaker\\app\\build\\intermediates\\ndkBuild\\universal\\release\\obj\\local\\x86\\libhlhooker.so"
+    },
+    "scrtData-universalRelease-x86": {
+      "buildCommand": "C:\\Users\\ZEROETC\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\ZEROETC\\Desktop\\OfferAIO\\HLFaker\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\ZEROETC\\Desktop\\OfferAIO\\HLFaker\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dC:/Users/ZEROETC/Desktop/OfferAIO/HLFaker/app/build/intermediates/ndkBuild/universal/release/obj NDK_LIBS_OUT\u003dC:\\Users\\ZEROETC\\Desktop\\OfferAIO\\HLFaker\\app\\build\\intermediates\\ndkBuild\\universal\\release\\lib C:/Users/ZEROETC/Desktop/OfferAIO/HLFaker/app/build/intermediates/ndkBuild/universal/release/obj/local/x86/libscrtData.so",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "artifactName": "scrtData",
+      "files": [
+        {
+          "src": "C:\\Users\\ZEROETC\\Desktop\\OfferAIO\\HLFaker\\app\\src\\main\\jni\\security\\securityData.cpp",
+          "flags": "\"-gcc-toolchain\" \"C:/Users/ZEROETC/AppData/Local/Android/sdk/ndk-bundle/build//../toolchains/x86-4.9/prebuilt/windows-x86_64\" \"-target\" \"i686-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-fno-exceptions\" \"-fno-rtti\" \"-O2\" \"-DNDEBUG\" \"-IC:/Users/ZEROETC/Desktop/OfferAIO/HLFaker/app/src/main/jni\" \"-IC:/Users/ZEROETC/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/stlport/stlport\" \"-IC:/Users/ZEROETC/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl//gabi++/include\" \"-IC:/Users/ZEROETC/Desktop/OfferAIO/HLFaker/app/src/main/jni\" \"-fexceptions\" \"-DANDROID\" \"-fpermissive\" \"-fno-rtti\" \"-fno-exceptions\" \"-D__ANDROID_API__\u003d19\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-mstackrealign\" \"-frtti\" \"-fexceptions\" \"--sysroot\" \"C:/Users/ZEROETC/AppData/Local/Android/sdk/ndk-bundle/build//../sysroot\" \"-isystem\" \"C:/Users/ZEROETC/AppData/Local/Android/sdk/ndk-bundle/build//../sysroot/usr/include/i686-linux-android\""
+        }
+      ],
+      "output": "C:\\Users\\ZEROETC\\Desktop\\OfferAIO\\HLFaker\\app\\build\\intermediates\\ndkBuild\\universal\\release\\obj\\local\\x86\\libscrtData.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86": {
+      "cppCompilerExecutable": "C:\\Users\\ZEROETC\\AppData\\Local\\Android\\sdk\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

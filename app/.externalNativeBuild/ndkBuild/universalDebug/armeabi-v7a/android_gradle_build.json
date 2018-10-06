@@ -1,0 +1,46 @@
+{
+  "buildFiles": [
+    "C:\\Users\\ZEROETC\\Desktop\\OfferAIO\\HLFaker_Server\\app\\src\\main\\jni\\Android.mk",
+    "C:\\Users\\ZEROETC\\Desktop\\OfferAIO\\HLFaker_Server\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\ZEROETC\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\ZEROETC\\Desktop\\OfferAIO\\HLFaker_Server\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\ZEROETC\\Desktop\\OfferAIO\\HLFaker_Server\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dC:/Users/ZEROETC/Desktop/OfferAIO/HLFaker_Server/app/build/intermediates/ndkBuild/universal/debug/obj NDK_LIBS_OUT\u003dC:\\Users\\ZEROETC\\Desktop\\OfferAIO\\HLFaker_Server\\app\\build\\intermediates\\ndkBuild\\universal\\debug\\lib clean"
+  ],
+  "libraries": {
+    "hlhooker-universalDebug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\ZEROETC\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\ZEROETC\\Desktop\\OfferAIO\\HLFaker_Server\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\ZEROETC\\Desktop\\OfferAIO\\HLFaker_Server\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dC:/Users/ZEROETC/Desktop/OfferAIO/HLFaker_Server/app/build/intermediates/ndkBuild/universal/debug/obj NDK_LIBS_OUT\u003dC:\\Users\\ZEROETC\\Desktop\\OfferAIO\\HLFaker_Server\\app\\build\\intermediates\\ndkBuild\\universal\\debug\\lib C:/Users/ZEROETC/Desktop/OfferAIO/HLFaker_Server/app/build/intermediates/ndkBuild/universal/debug/obj/local/armeabi-v7a/libhlhooker.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "hlhooker",
+      "files": [
+        {
+          "src": "C:\\Users\\ZEROETC\\Desktop\\OfferAIO\\HLFaker_Server\\app\\src\\main\\jni\\hlhooker\\hlhooker.cpp",
+          "flags": "\"-gcc-toolchain\" \"C:/Users/ZEROETC/AppData/Local/Android/sdk/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi21\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-fno-exceptions\" \"-fno-rtti\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-IC:/Users/ZEROETC/Desktop/OfferAIO/HLFaker_Server/app/src/main/jni\" \"-IC:/Users/ZEROETC/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/stlport/stlport\" \"-IC:/Users/ZEROETC/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl//gabi++/include\" \"-IC:/Users/ZEROETC/Desktop/OfferAIO/HLFaker_Server/app/src/main/jni/include\" \"-IC:/Users/ZEROETC/Desktop/OfferAIO/HLFaker_Server/app/src/main/jni\" \"-fvisibility\u003dhidden\" \"-fvisibility-inlines-hidden\" \"-g0\" \"-O3\" \"-fomit-frame-pointer\" \"-ffunction-sections\" \"-fdata-sections\" \"-std\u003dc++1y\" \"-fexceptions\" \"-DANDROID\" \"-fpermissive\" \"-fno-rtti\" \"-fno-exceptions\" \"-fvisibility\u003dhidden\" \"-fvisibility-inlines-hidden\" \"-std\u003dc++1y\" \"-g0\" \"-O3\" \"-fomit-frame-pointer\" \"-D__ANDROID_API__\u003d21\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-frtti\" \"-fexceptions\" \"--sysroot\" \"C:/Users/ZEROETC/AppData/Local/Android/sdk/ndk-bundle/build//../sysroot\" \"-isystem\" \"C:/Users/ZEROETC/AppData/Local/Android/sdk/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi\""
+        }
+      ],
+      "output": "C:\\Users\\ZEROETC\\Desktop\\OfferAIO\\HLFaker_Server\\app\\build\\intermediates\\ndkBuild\\universal\\debug\\obj\\local\\armeabi-v7a\\libhlhooker.so"
+    },
+    "scrtData-universalDebug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\ZEROETC\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\ZEROETC\\Desktop\\OfferAIO\\HLFaker_Server\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\ZEROETC\\Desktop\\OfferAIO\\HLFaker_Server\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dC:/Users/ZEROETC/Desktop/OfferAIO/HLFaker_Server/app/build/intermediates/ndkBuild/universal/debug/obj NDK_LIBS_OUT\u003dC:\\Users\\ZEROETC\\Desktop\\OfferAIO\\HLFaker_Server\\app\\build\\intermediates\\ndkBuild\\universal\\debug\\lib C:/Users/ZEROETC/Desktop/OfferAIO/HLFaker_Server/app/build/intermediates/ndkBuild/universal/debug/obj/local/armeabi-v7a/libscrtData.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "scrtData",
+      "files": [
+        {
+          "src": "C:\\Users\\ZEROETC\\Desktop\\OfferAIO\\HLFaker_Server\\app\\src\\main\\jni\\security\\securityData.cpp",
+          "flags": "\"-gcc-toolchain\" \"C:/Users/ZEROETC/AppData/Local/Android/sdk/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi21\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-fno-exceptions\" \"-fno-rtti\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-IC:/Users/ZEROETC/Desktop/OfferAIO/HLFaker_Server/app/src/main/jni\" \"-IC:/Users/ZEROETC/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl/stlport/stlport\" \"-IC:/Users/ZEROETC/AppData/Local/Android/sdk/ndk-bundle/build//../sources/cxx-stl//gabi++/include\" \"-IC:/Users/ZEROETC/Desktop/OfferAIO/HLFaker_Server/app/src/main/jni\" \"-fvisibility\u003dhidden\" \"-fvisibility-inlines-hidden\" \"-g0\" \"-O3\" \"-fomit-frame-pointer\" \"-ffunction-sections\" \"-fdata-sections\" \"-std\u003dc++1y\" \"-fexceptions\" \"-DANDROID\" \"-fpermissive\" \"-fno-rtti\" \"-fno-exceptions\" \"-D__ANDROID_API__\u003d21\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-frtti\" \"-fexceptions\" \"--sysroot\" \"C:/Users/ZEROETC/AppData/Local/Android/sdk/ndk-bundle/build//../sysroot\" \"-isystem\" \"C:/Users/ZEROETC/AppData/Local/Android/sdk/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi\""
+        }
+      ],
+      "output": "C:\\Users\\ZEROETC\\Desktop\\OfferAIO\\HLFaker_Server\\app\\build\\intermediates\\ndkBuild\\universal\\debug\\obj\\local\\armeabi-v7a\\libscrtData.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi-v7a": {
+      "cppCompilerExecutable": "C:\\Users\\ZEROETC\\AppData\\Local\\Android\\sdk\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
